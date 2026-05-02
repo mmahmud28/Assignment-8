@@ -1,0 +1,158 @@
+[
+  {
+    "id": "gallery_57",
+    "title": "Modern Luxury Interior 57",
+    "description": "A premium modern interior concept featuring elegant tile patterns, balanced lighting, and luxury finishing inspired by Aparna Unispace design philosophy.",
+    "details": {
+      "category": "interior design",
+      "style": "modern luxury",
+      "usage": "living space / showroom",
+      "material_theme": "marble + ceramic blend",
+      "design_focus": "clean minimal luxury aesthetics"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-57.png"
+  },
+  {
+    "id": "gallery_58",
+    "title": "Contemporary Space Design 58",
+    "description": "A contemporary interior layout with smooth textures, modern flooring design, and refined architectural balance.",
+    "details": {
+      "category": "interior design",
+      "style": "contemporary",
+      "usage": "hall / display area",
+      "material_theme": "stone finish",
+      "design_focus": "spacious and elegant look"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-58.png"
+  },
+  {
+    "id": "gallery_59",
+    "title": "Elegant Premium Living 59",
+    "description": "A luxury living concept showcasing refined tile work, modern wall textures, and soft ambient lighting design.",
+    "details": {
+      "category": "luxury interior",
+      "style": "elegant modern",
+      "usage": "home interior",
+      "material_theme": "polished marble",
+      "design_focus": "premium comfort aesthetics"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-59.png"
+  },
+  {
+    "id": "gallery_60",
+    "title": "Architectural Modern Vision 60",
+    "description": "A structured architectural design highlighting spatial planning, modern geometry, and advanced interior styling.",
+    "details": {
+      "category": "architecture",
+      "style": "modern structured",
+      "usage": "commercial / residential",
+      "material_theme": "granite & ceramic",
+      "design_focus": "functional elegance"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-60.png"
+  },
+  {
+    "id": "gallery_61",
+    "title": "Premium Tile Showcase 61",
+    "description": "A showroom-style interior showcasing high-end tile application with balanced lighting and smooth finishing.",
+    "details": {
+      "category": "tile design",
+      "style": "premium modern",
+      "usage": "showroom",
+      "material_theme": "glossy ceramic",
+      "design_focus": "visual harmony"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-61.png"
+  },
+  {
+    "id": "gallery_62",
+    "title": "Luxury Interior Composition 62",
+    "description": "A refined luxury interior composition with marble-inspired surfaces and modern architectural balance.",
+    "details": {
+      "category": "luxury interior",
+      "style": "modern luxury",
+      "usage": "premium home",
+      "material_theme": "stone + marble",
+      "design_focus": "elegance and simplicity"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-62.png"
+  },
+  {
+    "id": "gallery_20",
+    "title": "Modern Interior Concept 20",
+    "description": "A modern interior setup with creative tile usage and balanced design aesthetics for contemporary spaces.",
+    "details": {
+      "category": "interior design",
+      "style": "modern",
+      "usage": "living room",
+      "material_theme": "ceramic finish",
+      "design_focus": "simple modern layout"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-20.png"
+  },
+  {
+    "id": "gallery_21",
+    "title": "Elegant Wall & Floor Design 21",
+    "description": "A stylish interior showcasing wall and floor tile coordination with premium texture balance.",
+    "details": {
+      "category": "tile design",
+      "style": "elegant",
+      "usage": "residential interior",
+      "material_theme": "matte ceramic",
+      "design_focus": "harmonized surface design"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-21.png"
+  },
+  {
+    "id": "gallery_22",
+    "title": "Luxury Living Space 22",
+    "description": "A high-end living space design with modern tile patterns and soft lighting ambiance.",
+    "details": {
+      "category": "luxury interior",
+      "style": "modern luxury",
+      "usage": "home interior",
+      "material_theme": "marble finish",
+      "design_focus": "premium lifestyle design"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-22.png"
+  },
+  {
+    "id": "gallery_23",
+    "title": "Contemporary Interior Flow 23",
+    "description": "A flowing interior design with seamless tile transitions and modern architectural layout.",
+    "details": {
+      "category": "architecture",
+      "style": "contemporary",
+      "usage": "commercial space",
+      "material_theme": "stone texture",
+      "design_focus": "smooth spatial flow"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-23.png"
+  },
+  {
+    "id": "gallery_24",
+    "title": "Premium Display Interior 24",
+    "description": "A showroom-inspired interior design focused on premium tile presentation and visual balance.",
+    "details": {
+      "category": "showroom design",
+      "style": "premium",
+      "usage": "display area",
+      "material_theme": "glossy finish",
+      "design_focus": "product highlight focus"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-24.png"
+  },
+  {
+    "id": "gallery_25",
+    "title": "Modern Architectural Space 25",
+    "description": "A modern architectural interior combining aesthetic tile work with structured space planning.",
+    "details": {
+      "category": "architecture",
+      "style": "modern",
+      "usage": "residential / commercial",
+      "material_theme": "ceramic & stone",
+      "design_focus": "balanced architecture"
+    },
+    "image": "https://aparnaunispace.com/assets/img/gallery-25.png"
+  }
+]
