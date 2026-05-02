@@ -42,7 +42,7 @@ const Navbar = () => {
                     </li>
 
                     <li>
-                        <Link href={"/pricing"} className="hover:text-orange-500 transition">
+                        <Link href={"/all-tiles"} className="hover:text-orange-500 transition">
                             Pricing
                         </Link>
                     </li>
