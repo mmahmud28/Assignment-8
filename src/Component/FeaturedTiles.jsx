@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CollectionsPage = () => {
+const FeaturedTiles = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const CollectionsPage = () => {
     );
 };
 
-export default CollectionsPage;
+export default FeaturedTiles;

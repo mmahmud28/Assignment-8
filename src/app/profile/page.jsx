@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExplorePage = () => {
+const ProfilePage = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const ExplorePage = () => {
     );
 };
 
-export default ExplorePage;
+export default ProfilePage;
