@@ -1,6 +1,6 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
-import { Check, Target } from "@gravity-ui/icons";
+import { Check} from "@gravity-ui/icons";
 import {
   Button,
   Card,
@@ -16,21 +16,26 @@ export default function SignUpPage() {
   const onSubmit = async (e) => {
     e.preventDefault();
 
-    const Name = e.target.name.value;
-    const image  = e.target.image.value;
-    const email  = e.target.email.value;
-    const password  = e.target.password.value;
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const image = e.target.image.value;
+    const password = e.target.password.value;
+    
 
-    const {data, error} = await authClient.signUp.email({
-      Name,
-        email,
-        password,
-    })
+    // const {data, error} = await authClient.signUp.email({
+    //   name,
+    //   email,
+    //   image,
+    //   password,
 
-    console.log(data, error);
+    // })
+
+    // console.log({data, error});
     
     
   };
+
+
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">

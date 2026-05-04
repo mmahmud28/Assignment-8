@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const AllTiles = async () => {
-  const photos = await fetch(
+  const all_data = await fetch(
     "https://assignment-8-alpha-smoky.vercel.app/tilesCombo.json"
   );
 
-  const data = await photos.json();
+  const data = await all_data.json();
 
   return (
     <div className="p-4">
@@ -45,7 +45,7 @@ const AllTiles = async () => {
               </div>
 
               <div className="flex justify-end">
-                <Link href={`/all-tiles/${photo.id}`}>
+                <Link href={`/tiles/${photo.id}`}>
                   <Button variant="primary">View Details</Button>
                 </Link>
               </div>

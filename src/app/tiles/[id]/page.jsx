@@ -43,11 +43,6 @@ const AllTilesDetailes = async ({ params }) => {
 
                     <div className="bg-white/10 rounded-xl p-5 space-y-2 text-sm">
                         <h2 className="text-lg font-semibold mb-3">Specifications</h2>
-
-                        
-
-
-
                     </div>
 
                 </div>
