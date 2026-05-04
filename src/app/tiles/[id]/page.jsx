@@ -12,40 +12,80 @@ const AllTilesDetailes = async ({ params }) => {
     const tile = tilesData.find((t) => t.id === id);
 
     const detailes = tile.details;
-    console.log(detailes);
+
 
     return (
-        <div className="min-h-screen mt-4 bg-gradient-to-br from-slate-900 to-slate-800 flex items-center justify-center px-4 py-10">
+        <div className="min-h-screen mt-4 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-4 py-10">
 
-            <div className="max-w-4xl p-5 w-full bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl border border-white/20 overflow-hidden">
+            <div className="max-w-5xl p-5 rounded-2xl w-full bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/20 overflow-hidden">
 
-                <div className="p-6 md:p-8 space-y-8 text-white">
+                <div className="grid md:grid-cols-2 gap-8 p-6 md:p-10 text-white">
 
-                    <h1 className="text-3xl md:text-4xl font-bold text-center">
-                        Tile Details
-                    </h1>
-
-                    <div className="overflow-hidden rounded-xl">
+                    {/* Image Section */}
+                    <div className="group overflow-hidden rounded-2xl">
                         <Image
                             src={tile?.image}
                             alt={tile?.title}
                             width={600}
                             height={500}
                             unoptimized
-                            className="w-full h-full object-cover hover:scale-105 transition duration-500"
+                            className="w-full h-full object-cover rounded-2xl transform group-hover:scale-110 transition duration-700 ease-in-out"
                         />
                     </div>
 
-                    <div className="space-y-2 text-center">
-                        <p className="text-xl font-semibold">{tile?.title}</p>
-                        <p className="text-white/70 text-sm">{tile?.description}</p>
-                    </div>
+                    {/* Content Section */}
+                    <div className="flex p-5 flex-col justify-between space-y-6">
 
-                    <div className="bg-white/10 rounded-xl p-5 space-y-2 text-sm">
-                        <h2 className="text-lg font-semibold mb-3">Specifications</h2>
-                    </div>
+                        {/* Title & Description */}
+                        <div className="space-y-3">
+                            <h1 className="text-3xl md:text-4xl font-bold leading-tight">
+                                {tile?.title}
+                            </h1>
+                            <p className="text-white/70 text-sm leading-relaxed">
+                                {tile?.description}
+                            </p>
+                        </div>
 
+                        {/* Divider */}
+                        <div className="h-px bg-white/20"></div>
+
+                        {/* Specifications */}
+                        <div className="bg-white/10 rounded-2xl p-5 space-y-4">
+                            <h2 className="text-xl font-semibold">Specifications</h2>
+
+                            <div className="grid grid-cols-2 gap-4 text-sm">
+
+                                <div className="bg-white/5 p-3 rounded-lg">
+                                    <p className="text-white/50">Category</p>
+                                    <p className="font-medium">{detailes.category}</p>
+                                </div>
+
+                                <div className="bg-white/5 p-3 rounded-lg">
+                                    <p className="text-white/50">Style</p>
+                                    <p className="font-medium">{detailes.style}</p>
+                                </div>
+
+                                <div className="bg-white/5 p-3 rounded-lg">
+                                    <p className="text-white/50">Usage</p>
+                                    <p className="font-medium">{detailes.usage}</p>
+                                </div>
+
+                                <div className="bg-white/5 p-3 rounded-lg">
+                                    <p className="text-white/50">Material</p>
+                                    <p className="font-medium">{detailes.material_theme}</p>
+                                </div>
+
+                                <div className="bg-white/5 p-3 rounded-lg col-span-2">
+                                    <p className="text-white/50">Design Focus</p>
+                                    <p className="font-medium">{detailes.design_focus}</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+
             </div>
         </div>
     );

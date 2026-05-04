@@ -22,15 +22,15 @@ export default function SignUpPage() {
     const password = e.target.password.value;
     
 
-    // const {data, error} = await authClient.signUp.email({
-    //   name,
-    //   email,
-    //   image,
-    //   password,
+    const {data, error} = await authClient.signUp.email({
+      name,
+      email,
+      image,
+      password,
 
-    // })
+    })
 
-    // console.log({data, error});
+    console.log({data, error});
     
     
   };
