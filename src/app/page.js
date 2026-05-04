@@ -1,12 +1,18 @@
 import Banner from "@/Component/Banner";
-import TopTiles from "@/Component/TopTiles";
+import AllTiles from "./tiles/page";
+import Marquee from "react-fast-marquee";
+
 
 
 export default function Home() {
   return (
     <div className="space-y-8 p-5">
-      <Banner/>
-      <TopTiles/>
+     
+      <Marquee className="px-3 py-2">
+        I can be a React component, multiple React components, or just some text.
+      </Marquee>
+       <Banner />
+      <AllTiles />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 const Navbar = () => {
     return (
@@ -31,19 +32,13 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href={"/explore"} className="hover:text-orange-500 transition">
-                            Explore Tiles
+                        <Link href={"/tiles"} className="hover:text-orange-500 transition">
+                            All Tiles
                         </Link>
                     </li>
                     <li>
-                        <Link href={"/collections"} className="hover:text-orange-500 transition">
-                            Collections
-                        </Link>
-                    </li>
-
-                    <li>
-                        <Link href={"/all-tiles"} className="hover:text-orange-500 transition">
-                            Pricing
+                        <Link href={"/profile"} className="hover:text-orange-500 transition">
+                           Profile
                         </Link>
                     </li>
                 </ul>
@@ -51,10 +46,20 @@ const Navbar = () => {
 
                 <div className="flex items-center gap-3 text-sm">
                     <Link
-                        href={"/signin"}
+                        href={"/register"}
                         className="px-4 py-1.5 text-white hover:text-orange-500 rounded-md border hover:bg-gray-100 transition"
                     >
-                        Sign In
+                        Login
+                    </Link>
+
+                </div>
+
+                 <div className="flex items-center gap-3 text-sm">
+                    <Link
+                        href={"/login"}
+                        className="px-4 py-1.5 text-white hover:text-orange-500 rounded-md border hover:bg-gray-100 transition"
+                    >
+                        Logout
                     </Link>
 
                 </div>
